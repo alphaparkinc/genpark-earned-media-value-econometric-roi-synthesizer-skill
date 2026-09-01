@@ -1,0 +1,41 @@
+{
+  "name": "genpark-earned-media-value-econometric-roi-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Earned Media Value (EMV) econometric ROI synthesizer quantifying creator impressions, engagement value, and blended CAC.",
+  "author": "genpark",
+  "category": "marketing-econometrics",
+  "tags": [
+    "earned-media-value",
+    "emv-calculator",
+    "influencer-roi",
+    "blended-cac",
+    "brand-lift-analysis"
+  ],
+  "inputs": {
+    "impressions_delivered": {
+      "type": "integer"
+    },
+    "engagements_count": {
+      "type": "integer"
+    },
+    "total_spend_usd": {
+      "type": "number"
+    }
+  },
+  "outputs": {
+    "econometric_report_id": {
+      "type": "string"
+    },
+    "earned_media_value_emv_usd": {
+      "type": "number"
+    },
+    "emv_multiplier_factor": {
+      "type": "number"
+    },
+    "executive_roi_dashboard_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
